@@ -1,0 +1,76 @@
+extends base.pug
+
+block scripts
+    script(src='/static/index.js')
+
+block style
+    style 
+        include ../static/style.css
+
+block content 
+    nav#navbar 
+            ul 
+                div#logo
+                    img(src="/static/logo5.png")
+                    |SDA
+                li #[a(href="/") HOME]
+                li #[a(href="/") CLASSES] 
+                li #[a(href="/") ABOUT] 
+                li #[a(href="/") SERVICES] 
+                li #[a(href="/") CONTACT US]
+    section#introsec 
+            div  REACH YOUR DANCE GOALS !!!
+            div  WITH 1000+ ONLINE CLASSES,PROGRAMS AND MORE
+            button#btn  get started
+    section#programs 
+            h1 Step by Step Learning For All Leveles
+            div#para 
+                h2 Whether you’re just starting out or you’ve got some training under your belt - we got you covered.
+            div.card
+                h3 BEGINNER
+                div.card-box 
+                    div.card-para
+                        p got two feet? start with our 10-day intro program                
+            div.card
+                h3 INTERMEDIATE
+                div.card-box 
+                    div.card-para
+                        p feel pretty confident? learn avanced moves and skills 
+            div.card
+                h3 ADVANCED
+                div.card-box 
+                    div.card-para
+                        p already killing it? collabrate with top choreographers
+    section#variety
+            h1 Learn Variety Of Dance Styles 
+            div#styles 
+                div#stylebox 
+                    img(src="/static/hiphop.png", alt="")
+                    h3 hiphop 
+                div#stylebox 
+                    img(src="/static/jazz.jpg", alt="")
+                    h3 jazz
+                div#stylebox 
+                    img(src="/static/heels.jpg", alt="")
+                    h3 heels
+                div#stylebox 
+                    img(src="/static/cont.jpg", alt="")
+                    h3 contemperory
+                div#stylebox 
+                    img(src="/static/salsa2.jpg", alt="")
+                    h3 salsa
+                div#stylebox 
+                    img(src="/static/ballet2.jpg", alt="")
+                    h3 ballet 
+                div#stylebox 
+                    img(src="/static/lite.jpg", alt="")
+                    h3 litefeet
+                div#stylebox 
+                    img(src="/static/locking2.jpg", alt="")
+                    h3 locking
+            
+            
+            
+
+
+
