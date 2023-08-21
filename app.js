@@ -13,10 +13,16 @@ app.set('view engine','pug')
 app.set('views',path.join(__dirname,'views'))
 
 //endpoints
+
 app.get('/',(req,res)=>{
     
     const params ={}
     res.status(200).render('home.pug',params);
+})
+app.get('/contact',(req,res)=>{
+    
+    const params ={}
+    res.status(200).render('contact.pug',params);
 })
 
 //start server

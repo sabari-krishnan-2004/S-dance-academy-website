@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Belanosima:wght@600;700&family=Inter:wght@600&family=Oswald&family=Prompt:wght@600&family=REM:wght@100;300&family=Tilt+Warp&family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Belanosima:wght@600;700&family=Fira+Sans:ital,wght@1,100&family=Inter:wght@600&family=Oswald&family=Prompt:wght@600&family=REM:wght@100;300&family=Tilt+Warp&family=Ubuntu:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Belanosima:wght@600;700&family=Oswald&family=Prompt:wght@600&family=REM:wght@100;300&family=Tilt+Warp&family=Ubuntu:wght@300&display=swap');
+*{
+    padding: 0px 0px 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.container{
+    
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+
+
+}
+h1{
+    text-align: center;
+    margin: 16px;
+    padding: 15px;
+    font-size: 30px;
+    font-family: 'Prompt', sans-serif;
+}
+.myform{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 45px;
+    width: 100%;
+}
+.myinput{
+    width: 40%;
+    padding: 9px;
+    margin: 12px;
+    font-size: 16px;
+    border-radius: 12px;
+    border: 2px solid black;
+    outline: none;
+    font-family: 'REM', sans-serif;
+
+
+}
+#submitbutn{
+    padding: 8px 16px;
+    font-size: 18px;
+    border: 2px solid black;
+    border-radius: 16px;
+    color: white;
+    background-color: rgb(22, 68, 218);
+    cursor: pointer;
+    margin: 17px;
+    outline: none;
+}
+#submitbutn:hover{
+    background-color: aqua;
+    color: black;
+}
